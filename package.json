@@ -1,0 +1,27 @@
+{
+  "name": "ava-hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^0.14.0",
+    "babel-register": "^6.7.2",
+    "hapi": "^13.3.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  }
+}
