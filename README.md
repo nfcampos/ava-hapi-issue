@@ -1,0 +1,1 @@
+# ava-hapi-issue
